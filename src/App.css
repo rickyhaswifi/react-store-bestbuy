@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+body {
+  color: white;
+  text-align: center !important;
+  background-color: #4571E5 !important;
 }
 
 .App-logo {
@@ -19,4 +21,18 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+li {
+  text-align: center;
+  display: inline-block;
+  margin: 2em;
+}
+
+.ui.card{
+  
+  min-height: 300px !important;
+  /* margin:2rem !important; */
+  /* background-color: red !important; */
 }
