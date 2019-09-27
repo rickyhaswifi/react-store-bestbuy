@@ -21,7 +21,7 @@ class ItemForm extends Component {
             this.props.update(this.props.id, this.state)
             this.props.toggleEdit()
         } else {
-            this.props.add(this.state)
+          this.props.addItem(this.state)
         }
         // this.props.addItem(this.state)
         this.setState( {name: '', price:'', image: ''})

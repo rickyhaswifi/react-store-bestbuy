@@ -39,9 +39,9 @@ class App extends Component {
  
 
   addItem = (item) => {
-    const { name, price } = item
+    const { name, price, image } = item
     const { items } = this.state
-    const newItem = { name, price, complete: false, id: this.getUniqId() }
+    const newItem = { name, price, image, complete: false, id: this.getUniqId() }
     this.setState({ items: [newItem, ...items] })
   }
 
