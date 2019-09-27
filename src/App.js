@@ -46,12 +46,14 @@ class App extends Component {
   }
 
 updateItem = (id, item) => {
-  const items = this.state.items.map (
-    i => {
-      if (i.id === id)
+  // const { name, price, image } = item
+  const items = this.state.items.map ( i => { 
+    if (i.id === id)
+      return item
+    else 
       return i
     })
-    this.setState({items})
+  this.setState({ items })
 }
 
   // componentWillUpdate() {
@@ -78,7 +80,7 @@ updateItem = (id, item) => {
    switch(filter) {
      case 'Need To Buy':
        return items.filter( i => !i.complete )
-       return items.price.reduce()
+      //  return items.price.reduce()
      case 'In Cart':
        return items.filter( i => i.complete )
     default:
