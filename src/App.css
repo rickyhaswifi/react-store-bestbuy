@@ -1,8 +1,10 @@
 body {
   color: white;
   text-align: center !important;
-  background-color: #4571E5 !important;
+  background-color: #0046BE !important;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -31,7 +33,7 @@ li {
 }
 
 .ui.card{
-  
+ color: black !important; 
   min-height: 300px !important;
   /* margin:2rem !important; */
   /* background-color: red !important; */
